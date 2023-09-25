@@ -1,0 +1,898 @@
+[
+  {
+    "name": "Shimano Trevala PX Split-Grip Jigging Trigger Rod",
+    "price": 219.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100885903_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Trevala B Spinning Rod",
+    "price": 189.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101252649_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Talavera Type J Casting Rod",
+    "price": 119.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101309594_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Zodias Casting Rod",
+    "price": 209.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_100835218_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Teramar PX Southeast Casting Rod",
+    "price": 229.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100998345_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Talavera Inshore Spinning Rod",
+    "price": 99.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101309593_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano GLF Inshore Spinning Rod",
+    "price": 99.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101348383_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Trevala B Casting Rod",
+    "price": 189.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101252648_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Zodias Spinning Rod",
+    "price": 209.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_100835207_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Trevala PX Full Grip Jigging Trigger Rod",
+    "price": 219.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100885913_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Talavera Boat Spinning Rod",
+    "price": 119.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101309592_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Teramar Southeast Spinning Rod",
+    "price": 189.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101252647_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Talavera Boat Conventional Rod",
+    "price": 119.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101309591_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Teramar Southeast Casting Rod",
+    "price": 189.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101252646_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Teramar PX Southeast Spinning Rod",
+    "price": 229.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100998953_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Teramar NE CastIng Rod",
+    "price": 229.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101027220_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Teramar NE Spinning Rod",
+    "price": 229.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101027282_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Trevala PX Full Grip Jigging Spinning Rod",
+    "price": 219.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100885915_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Trevala PX Split-Grip Spinning Rod",
+    "price": 219.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100885904_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Terez Conventional Rod",
+    "price": 299.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100346090_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Clarus Spinning Rod",
+    "price": 89.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101309597_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano SLX Glass Crankbait Casting Rod",
+    "price": 99.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101265956_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Tiralejo Surf Spinning Rod",
+    "price": 319.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100015390_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Grappler Slow Jigging Conventional Rod",
+    "price": 299.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100971132_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Clarus Casting Rod",
+    "price": 89.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101309441_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Convergence Casting Rod",
+    "price": 69.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101309442_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Teramar Southeast Casting Rod",
+    "price": 139.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_58571_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Scimitar Salmon/Steelhead Trolling Rod",
+    "price": 49.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101348406_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano Terez Spinning Rod",
+    "price": 299.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100346086_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano SLX Casting Rod",
+    "price": 99.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101257773_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano SLX Spinning Rod",
+    "price": 99.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101257774_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "Shimano SpeedMaster Surf Spinning Rod",
+    "price": 159.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100252069_main?_a=BAJFJtWIB",
+    "brand": "Shimano",
+    "category": "rods"
+  },
+  {
+    "name": "New! Daiwa Great Lakes Leadcore Twili-Tip Trolling Rod",
+    "price": 99.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101437330_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa TD Sol Inshore Spinning Rod",
+    "price": 119.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101195680_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Emblem Pro Surf Spinning Rod",
+    "price": 109.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101057633_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Proteus Boat Spinning Rod",
+    "price": 199.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100835395_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Tatula Bass Spinning Rod",
+    "price": 149.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101327698_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Saltist Coastal Inshore Spinning Rod",
+    "price": 129.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100320670_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Steez AGS Casting Rod",
+    "price": 549.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101055538_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Proteus Winn Boat Conventional Rod",
+    "price": 229.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100855142_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Prorex Muskie Casting Rod",
+    "price": 149.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_100835273_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Team Daiwa Surf Spinning Rod",
+    "price": 179.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100790207_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Tournament Ballistic Surf Spinning Rod",
+    "price": 489.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101260068_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Emblem Pro Surf Casting Rod",
+    "price": 109.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101057634_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Saltiga Jigging Conventional Rod",
+    "price": 299.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101055522_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Saltiga Saltwater Travel Conventional Rod",
+    "price": 219.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100320662_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Harrier Jigging Spinning Rod",
+    "price": 99.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100343146_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Harrier Jigging Casting Rod",
+    "price": 99.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100343145_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Harrier Jigging Trigger Rod",
+    "price": 99.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100847133_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "New! Daiwa Tatula Elite Spinning Rod",
+    "price": 189.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101421401_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Dark Water Conventional Rod",
+    "price": 179.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101191065_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa DX Swimbait Casting Rod",
+    "price": 99.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_100835256_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Emcast Surf Spinning Rod",
+    "price": 79.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101057636_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Tatula Bass Casting Rod",
+    "price": 149.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101320530_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Ardito Travel Spinning Rods",
+    "price": 139.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_100120665_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Proteus Boat Conventional Rod",
+    "price": 199.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100835393_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa North Coast SS Casting Rod",
+    "price": 59.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101187300_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa North Coast SS Spinning Rod",
+    "price": 59.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101187283_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Prorex WN Muskie Casting Rod",
+    "price": 169.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_100835283_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Steez AGS Spinning Rod",
+    "price": 549.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101055540_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Rebellion Casting Rod",
+    "price": 199.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_100828978_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "New! Daiwa Tatula Elite Casting Rod",
+    "price": 189.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/master1_101421400_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Saltiga Saltwater Travel Spinning Rod",
+    "price": 219.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_100320657_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "Daiwa Saltiga Jigging Spinning Rod",
+    "price": 299.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/151/master1_101055524_main?_a=BAJFJtWIB",
+    "brand": "Daiwa",
+    "category": "rods"
+  },
+  {
+    "name": "BOOYAH Pond Magic Spinnerbait",
+    "price": 3.99,
+    "thumbnail": "https://assets.basspro.com/image/list/fn_select:jq:first(.%5B%5D%7Cselect(.public_id%20%7C%20endswith(%22main%22)))/1009354.json?$Prod_PLPThumb$",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Buzz Blade Buzzbaits",
+    "price": 4.99,
+    "thumbnail": "https://assets.basspro.com/image/list/fn_select:jq:first(.%5B%5D%7Cselect(.public_id%20%7C%20endswith(%22main%22)))/1009161.json?$Prod_PLPThumb$",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Baby Boo Jig",
+    "price": 2.79,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/peanutbutterandjelly_51623_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "Booyah Boss Pop",
+    "price": 8.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/pearlmelon_2241765_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Covert Series Double Colorado Spinnerbait",
+    "price": 9.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/whitechartsilvergoldbld_100324141_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Covert Series Double Willow Spinnerbait",
+    "price": 9.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/jcspecialnickelgold_100324302_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Tandem Blade Spinnerbait",
+    "price": 6.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/snowwhite_51784_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Pad Crasher or Pad Crasher Jr. Frog",
+    "price": 6.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/swampfrog_10231342_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Covert Series Tandem Spinnerbait",
+    "price": null,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/jcspecial_100324294_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH One Knocker",
+    "price": 7.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/rayburnredd_2241707_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Boo Jig",
+    "price": 3.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/blackblue_51620_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Pond Magic Buzzbait",
+    "price": 4.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/limetreuse_58598_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Glow Blade Spinnerbaits Tandem",
+    "price": 6.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/snowwhitewhiteblades_51778_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Counter Strike Spinnerbaits Tandem Blade",
+    "price": 6.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/snowwhite_71182_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Mini Shad Spinnerbaits",
+    "price": 6.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/pearlshiner_51781_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Poppin' Pad Crasher",
+    "price": 7.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/swampfrog_1301030715161_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Counter Strike Spinnerbaits Double Willow Blade",
+    "price": 6.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/snowwhite_74163_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Poppin' Pad Crasher Jr.",
+    "price": 6.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/leopardfrog_101250831_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Pikee Spinnerbait",
+    "price": 7.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/midnt_10209380_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Super Shad Spinnerbaits",
+    "price": 6.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/pearlshiner_51782_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH XCS Squarebill Crankbait",
+    "price": 5.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/rayburnred_100321919_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Tux and Tails Spinnerbaits Double Colorado",
+    "price": 6.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/citrushad_58600_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "Booyah Toadrunner",
+    "price": null,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/leopardfrog_100087776_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Mobster Swim Jig",
+    "price": 4.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/grand_101054782_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "Booyah Prank Lipped Popper",
+    "price": null,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/chromeblack_100012979_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Moon Talker Spinnerbait",
+    "price": 6.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/blacksilverflake_51780_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Covert Series Single Colorado Spinnerbait",
+    "price": 9.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/bluechartreuseredhead_100324024_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Micro Pond Magic Spinnerbaits",
+    "price": 2.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/lghtngbg_10209384_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Blade Spinnerbait Double Willow",
+    "price": 6.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/snowwhite_51785_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Single Colorado Spinnerbait",
+    "price": 6.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/black_100136680_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Swim'n Jig",
+    "price": 3.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/whiteshad_61302_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "BOOYAH Glow Blade Spinnerbaits Double Willow",
+    "price": 6.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_299/v1/ProductImages/100/snowwhitewhiteblades_51779_main?_a=BAJFJtWIB",
+    "brand": "BOOYAH",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Original Floating Minnow",
+    "price": 6.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/silver1_2842_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala X-Rap",
+    "price": 11.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/silverr_57968_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Husky Jerk Minnow",
+    "price": 6.29,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/purechrome_2827_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Jointed Minnow",
+    "price": 9.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/silverr_2845_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Jointed Shad Rap",
+    "price": 7.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/perch_37546_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Shallow Shad Rap",
+    "price": 8.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/silver1_2850_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala CountDown Minnow",
+    "price": 7.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/silver_2840_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Shad Rap",
+    "price": 7.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/silver_285105_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Saltwater X-Rap",
+    "price": 11.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/151/silverr_58001_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Skitter Pop",
+    "price": 12.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/slver_15519_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala X-Rap Magnum",
+    "price": null,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/151/silver_72190_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Skitter Prop",
+    "price": 10.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/slver_29817_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Ultra Light Minnow",
+    "price": 8.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/chrome_11072805005361_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Shad Dancer Crankbait",
+    "price": 8.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/livebluegill_159808_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Freshwater Rattlin' Rapala",
+    "price": 6.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/firetiger_2848_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Down Deep Husky Jerk",
+    "price": 7.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/blueghost3_20741_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala X-Rap CountDown",
+    "price": 13.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/silverr_12060605070326_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala DT Dives-To Series Crankbait",
+    "price": 7.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/bluebackherring2_44348_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Super Shad Rap",
+    "price": 19.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/shad_2852_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Glass Shad Rap",
+    "price": 7.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/glasspurplshad_97043_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Warrior UV Custom-Painted Rapala Deep Husky Jerk",
+    "price": 15.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/blackmamba_100120033_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Fat Rap",
+    "price": 6.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/silver_100144167_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Ultra Light Pop",
+    "price": 7.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/limefrog_100120776_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Shad Rap with Custom Colors by Yeck Lures",
+    "price": 13.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/pinksquirrel_100090854_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala X-Rap Twitchin' Minnow",
+    "price": 12.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/151/mullet_180633_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala X-Rap Shad",
+    "price": 13.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/firetiger_96678_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Saltwater Skitter Walk Hard Bait",
+    "price": 10.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/bluemullet_36997_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Shad Rap RS",
+    "price": 8.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/silver_20740_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Husky Magnum",
+    "price": 14.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/151/silvr_180778_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala X-Rap Jointed Shad",
+    "price": 18.49,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/151/silverr_75691_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala Deep Tail Dancer",
+    "price": 12.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/slimylime_58608_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  },
+  {
+    "name": "Rapala X-Rap Deep",
+    "price": 11.99,
+    "thumbnail": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/100/silver_90232_main?_a=BAJFJtWIB",
+    "brand": "Rapala",
+    "category": "lures"
+  }
+]

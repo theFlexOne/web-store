@@ -1,0 +1,263 @@
+import { categories } from '../../../shopwise/client/src/components/shopSidebar/constants';
+// List of 2 character product category SKU codes for a Fishing Tackle Shop
+const categorySkuCodes = {
+  Reels: 'RE',
+  Lures: 'LU',
+  Accessories: 'AC',
+  Combos: 'RC',
+  Rods: 'RO',
+  'Ice Fishing': 'IF',
+  'Kayaks & Canoes': 'KC',
+  Other: 'OT',
+  'Tackle Boxes': 'TB',
+  'Saltwater Fishing': 'SF',
+  'Fly Fishing': 'FF',
+  Appearel: 'AP',
+  Sunglasses: 'SG',
+  Bowfishing: 'BF',
+};
+
+// List of 2 character product sub-category SKU codes for a Fishing Tackle Shop
+const subCategorySkuCodes = {
+  Reels: {
+    'Baitcast Reels': 'BC',
+    'Spinning Reels': 'SP',
+    'Spincast Reels': 'SC',
+    'Saltwater Reels': 'SW',
+    'Fly Reels': 'FR',
+    'Line Counter Reels': 'LC',
+    'Power Assist Reels': 'PA',
+  },
+  Lures: {
+    'Hard Bait Lures': 'HB',
+    'Soft Bait Lures': 'SB',
+    'Spinnerbaits & Buzzbaits': 'SZ',
+    'Bass Jigs': 'BJ',
+    'Saltwater Lures': 'SL',
+    'Panfish Lures': 'PL',
+    'Fishing Spoons': 'FS',
+    'Lure Kits': 'LK',
+  },
+  Accessories: {
+    'Fillet Knives & Tables': 'FK',
+    'Fishing Nets': 'FN',
+    'Bait Buckets & Management': 'BB',
+    'Saltwater Accessories': 'SA',
+    'Rod & Reel Accessories': 'RA',
+    'Rod Holders & Racks': 'RH',
+    'Tools & Pliers': 'TP',
+    'Rulers & Scales': 'RS',
+  },
+  Combos: {
+    'Baitcast Combos': 'BC',
+    'Spinning Combos': 'SN',
+    'Spincast Combos': 'SC',
+    'Saltwater Combos': 'SW',
+    'Fly Outfits': 'FO',
+  },
+  Rods: {
+    'Casting Rods': 'CR',
+    'Spinning Rods': 'SR',
+    'Saltwater Rods': 'SW',
+    'Fly Rods': 'FR',
+  },
+  'Ice Fishing': {
+    'Shelters & Sleds': 'SS',
+    'Ice Augers': 'IA',
+    Terminal: 'TM',
+    Accessories: 'AC',
+    'Lures & Bait': 'LB',
+    'Tip Ups': 'TU',
+    'Ice Fishing Clothing': 'IC',
+    'Rods, Reels, & Combos': 'RC',
+    'View More': 'VM',
+  },
+  'Kayaks & Canoes': {
+    'Kayaks & Fishing Kayaks': 'KK',
+    'Kayak & Canoe Accessories': 'KA',
+    'Paddles & Oars': 'PO',
+  },
+  'Fishing Line, Hooks,& Weights': {
+    'Fishing Line': 'FL',
+    'Fish Hooks': 'FH',
+    'Weights & Sinkers': 'WS',
+    'Jig Heads': 'JH',
+    'Saltwater Terminal': 'ST',
+    'Lure Building & Molds': 'LB',
+    'Rigs and Components': 'RC',
+    Floats: 'FL',
+  },
+  'Tackle Boxes & Bags': {
+    'Tackle Boxes': 'BX',
+    'Tackle Bags': 'BG',
+    'Utility Bags': 'UB',
+  },
+  'Saltwater Fishing': {
+    'Saltwater Reels': 'RE',
+    'Saltwater Rods': 'RO',
+    'Saltwater Combos': 'SC',
+    'Saltwater Lures': 'SL',
+    'Saltwater Accessories': 'SA',
+    'Saltwater Terminal': 'ST',
+  },
+  'Fly Fishing': {
+    'Sun Protection & Apparel': 'AP',
+    'Fly Rods, Reels & Outfits': 'RO',
+    'Fly Line, Leader & Tippet': 'LT',
+    'Fly Fishing Accessories': 'AC',
+    'Flies & Fly Tying': 'FL',
+    'Fly Fishing Waders': 'WD',
+    'Float Tubes & Pontoons': 'FT',
+  },
+  'Fishing Apparel & Rain Gear': {
+    'Fishing Apparel & Rain Gear': 'AP',
+  },
+  'Fishing Sunglasses': {
+    'Fishing Sunglasses': 'SG',
+  },
+  Bowfishing: {
+    Bowfishing: 'BF',
+  },
+};
+
+const categories = [
+  {
+    name: 'Reels',
+    subCategories: [
+      'Baitcast Reels',
+      'Spinning Reels',
+      'Spincast Reels',
+      'Saltwater Reels',
+      'Fly Reels',
+      'Line Counter Reels',
+      'Power Assist Reels',
+    ],
+  },
+  {
+    name: 'Lures',
+    subCategories: [
+      'Hard Bait Lures',
+      'Soft Bait Lures',
+      'Spinnerbaits & Buzzbaits',
+      'Bass Jigs',
+      'Saltwater Lures',
+      'Panfish Lures',
+      'Fishing Spoons',
+      'Lure Kits',
+    ],
+  },
+  {
+    name: 'Accessories',
+    subCategories: [
+      'Fillet Knives & Tables',
+      'Fishing Nets',
+      'Bait Buckets & Management',
+      'Saltwater Accessories',
+      'Rod & Reel Accessories',
+      'Rod Holders & Racks',
+      'Tools & Pliers',
+      'Rulers & Scales',
+    ],
+  },
+  {
+    name: 'Combos',
+    subCategories: [
+      'Baitcast Combos',
+      'Spinning Combos',
+      'Spincast Combos',
+      'Saltwater Combos',
+      'Fly Outfits',
+    ],
+  },
+  {
+    name: 'Rods',
+    subCategories: [
+      'Casting Rods',
+      'Spinning Rods',
+      'Saltwater Rods',
+      'Fly Rods',
+    ],
+  },
+  {
+    name: 'Ice Fishing',
+    subCategories: [
+      'Shelters & Sleds',
+      'Ice Augers',
+      'Terminal',
+      'Accessories',
+      'Lures & Bait',
+      'Tip Ups',
+      'Ice Fishing Clothing',
+      'Rods, Reels, & Combos',
+      'View More',
+    ],
+  },
+  {
+    name: 'Kayaks & Canoes',
+    subCategories: [
+      'Kayaks & Fishing Kayaks',
+      'Kayak & Canoe Accessories',
+      'Paddles & Oars',
+    ],
+  },
+  {
+    name: 'Fishing Line, Hooks,& Weights',
+    subCategories: [
+      'Fishing Line',
+      'Fish Hooks',
+      'Weights & Sinkers',
+      'Jig Heads',
+      'Saltwater Terminal',
+      'Lure Building & Molds',
+      'Rigs and Components',
+      'Floats',
+    ],
+  },
+  {
+    name: 'Tackle Boxes & Bags',
+    subCategories: ['Tackle Boxes', 'Tackle Bags', 'Utility Bags'],
+  },
+  {
+    name: 'Saltwater Fishing',
+    subCategories: [
+      'Saltwater Reels',
+      'Saltwater Rods',
+      'Saltwater Combos',
+      'Saltwater Lures',
+      'Saltwater Accessories',
+      'Saltwater Terminal',
+    ],
+  },
+  {
+    name: 'Fly Fishing',
+    subCategories: [
+      'Sun Protection & Apparel',
+      'Fly Rods, Reels & Outfits',
+      'Fly Line, Leader & Tippet',
+      'Fly Fishing Accessories',
+      'Flies & Fly Tying',
+      'Fly Fishing Waders',
+      'Float Tubes & Pontoons',
+    ],
+  },
+  {
+    name: 'Fishing Apparel & Rain Gear',
+    subCategories: [],
+  },
+  {
+    name: 'Fishing Sunglasses',
+    subCategories: [],
+  },
+  {
+    name: 'Bowfishing',
+    subCategories: [],
+  },
+  {
+    name: 'New Fishing',
+    subCategories: [],
+  },
+  {
+    name: 'Fishing Sale',
+    subCategories: [],
+  },
+];
