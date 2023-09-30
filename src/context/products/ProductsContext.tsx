@@ -1,6 +1,6 @@
 import { createContext, useEffect, useState } from 'react';
-import { fetchProducts } from '../../lib/supabase/supabaseHelpers';
-import { ProductSlim } from '../../types/types';
+import { ProductSlim } from '../../types/models.types';
+import { getProductsSlim, getFiltersForProductCategory } from './productsService';
 
 type ProductsContextType = {
   products: ProductSlim[];
@@ -17,24 +17,22 @@ export default function ProductsProvider({
 
   useEffect(() => {
     (async () => {
-      const productsRaw = await fetchProducts();
-      const products: ProductSlim[] = productsRaw.map((product) => {
-        return {
-          id: product.id as string,
-          name: product.name,
-          base_price: product.base_price as number,
-          description: product.description as string,
-          thumbnail: product.thumbnail as string,
-          brand: ('' + product.brand_id) as string,
-          categories: ['' + product.category_id] as string[],
-          rating: 0,
-          numReviews: 0,
-          countInStock: 0,
-        } as ProductSlim;
-      });
+      const {data: productsSlim, error}: {data: ProductSlim[] | null, error: Error | null} = await getProductsSlim();
 
-      setProducts(products);
+      if (error) {
+        console.error(error);
+        return;
+      }
+
+      if (!productsSlim) {
+        console.error('No products found');
+        return;
+      }
+
+      setProducts(productsSlim);
     })();
+
+    getFiltersForProductCategory('lures').then(({data}) => console.log(data));
   }, []);
 
   return (

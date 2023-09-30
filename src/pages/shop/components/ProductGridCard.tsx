@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
-import { ProductSlim } from '../ShopPage';
+import { ProductSlim } from '../../../types/models.types';
 
 const ProductGridCard: React.FC<{ product: ProductSlim }> = ({ product }) => {
   const imageUrl =
     product.thumbnail || '/assets/images/no_image_available.jpeg';
   const name = product.name;
-  const price = `$${product.price}`;
+  const price = `$${product.basePrice}`;
 
   return (
     <div

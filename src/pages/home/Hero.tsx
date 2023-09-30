@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import fetchRandomBgImage from '../../utils/fetchRandomBgImage';
+import { heroImages } from '../../config.json';
+
+const HERO_IMAGES_DIR = 'images/heroes/';
 
 function Hero({ image: imageUrl }: { image?: string }) {
   const [image, setImage] = useState<string | undefined>(imageUrl);
@@ -8,19 +10,19 @@ function Hero({ image: imageUrl }: { image?: string }) {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (!image) {
-      fetchRandomBgImage()
-        .then((url) => {
-          console.log(url);
-
-          setImage(url);
-        })
-        .catch((error) => {
-          console.error(error);
-        });
+    if (image) return;
+    function getRandomImage() {
+      const randomIndex = Math.floor(Math.random() * heroImages.length);
+      const randomImage = heroImages[randomIndex];
+      const imagePath = `${HERO_IMAGES_DIR}${randomImage}`;
+      return imagePath;
     }
+    setImage(getRandomImage());
+    setInterval(() => {
+      const randomImage = getRandomImage();
+      setImage(randomImage);
+    }, 20000);
   }, [image]);
-
   useEffect(() => {
     if (heroRef.current) {
       heroRef.current.style.filter = 'brightness(0.5)';

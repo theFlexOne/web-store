@@ -1,6 +1,6 @@
 import ProductsDisplayTable from './ProductsDisplayTable';
 import ProductsDisplayGrid from './ProductsDisplayGrid';
-import { ProductSlim } from '../../../context/productsContext/types';
+import { ProductSlim } from '../../../types/models.types';
 
 export interface ProductsDisplayProps {
   products?: ProductSlim[];

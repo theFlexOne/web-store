@@ -1,11 +1,11 @@
 import { execSync } from 'child_process';
 import fs from 'fs';
 
-const HOST = 'db.xagzrhyrpqmxzatzjvwk.supabase.co';
-const DATABASE = 'postgres';
-const USERNAME = 'postgres';
+const HOST = "db.xagzrhyrpqmxzatzjvwk.supabase.co";
+const DATABASE = "postgres";
+const USERNAME = "postgres";
 const PORT = 5432;
-const SCHEMA = 'public';
+const SCHEMA = "public";
 
 const DUMP_FOLDER = './';
 const DEFAULT_FILENAME = 'schema.sql';

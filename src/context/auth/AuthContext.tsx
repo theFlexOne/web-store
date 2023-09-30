@@ -1,6 +1,6 @@
 import { createContext, useState } from 'react';
 import { User } from '../../types/models.types';
-import supabase from '../../lib/supabase/supabaseClient';
+import supabase from '../../lib/supabase/supabaseRestClient';
 
 interface AuthProviderValue {
   isUserLoggedIn: boolean;
