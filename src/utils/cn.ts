@@ -1,8 +1,7 @@
 import { twMerge } from 'tailwind-merge';
-import { clsx } from 'clsx';
+import { ClassArray, clsx } from 'clsx';
 
-type CNArgs = (string | undefined | false | null | CNArgs[])[];
 
-export default function cn(...args: CNArgs) {
+export default function cn(...args: ClassArray): string {
   return twMerge(clsx(...args.filter(Boolean)));
 }

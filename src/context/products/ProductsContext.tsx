@@ -1,6 +1,9 @@
-import { createContext, useEffect, useState } from 'react';
-import { ProductSlim } from '../../types/models.types';
-import { getProductsSlim, getFiltersForProductCategory } from './productsService';
+import { createContext, useEffect, useState } from "react";
+import { ProductSlim } from "../../types/models.types";
+import {
+  getProductsSlim,
+  getFiltersForProductCategory,
+} from "./productsService";
 
 type ProductsContextType = {
   products: ProductSlim[];
@@ -17,7 +20,13 @@ export default function ProductsProvider({
 
   useEffect(() => {
     (async () => {
-      const {data: productsSlim, error}: {data: ProductSlim[] | null, error: Error | null} = await getProductsSlim();
+      const {
+        data: productsSlim,
+        error,
+      }: { data: ProductSlim[] | null; error: Error | null } = {
+        data: [],
+        error: null,
+      };
 
       if (error) {
         console.error(error);
@@ -25,14 +34,14 @@ export default function ProductsProvider({
       }
 
       if (!productsSlim) {
-        console.error('No products found');
+        console.error("No products found");
         return;
       }
 
       setProducts(productsSlim);
     })();
 
-    getFiltersForProductCategory('lures').then(({data}) => console.log(data));
+    // getFiltersForProductCategory("lures").then(({ data }) => console.log(data));
   }, []);
 
   return (

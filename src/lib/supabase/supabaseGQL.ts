@@ -1,6 +1,6 @@
 import { Json } from '../../types/database.types';
 import { PostgrestSingleResponse } from '@supabase/supabase-js';
-import supabaseGQL from './supabaseGQLClient';
+import supabaseGQL from './supabaseClient';
 
 export default async function queryGraphQL(
   query: string,

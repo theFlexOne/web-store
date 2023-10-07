@@ -35,26 +35,33 @@ export interface Database {
   }
   public: {
     Tables: {
-      attributes: {
+      admins: {
         Row: {
           created_at: string
           id: number
-          name: string
           updated_at: string
+          user_id: string
         }
         Insert: {
           created_at?: string
-          id?: never
-          name: string
+          id?: number
           updated_at?: string
+          user_id: string
         }
         Update: {
           created_at?: string
-          id?: never
-          name?: string
+          id?: number
           updated_at?: string
+          user_id?: string
         }
-        Relationships: []
+        Relationships: [
+          {
+            foreignKeyName: "admins_user_id_fkey"
+            columns: ["user_id"]
+            referencedRelation: "users"
+            referencedColumns: ["id"]
+          }
+        ]
       }
       cart_items: {
         Row: {
@@ -93,6 +100,18 @@ export interface Database {
             columns: ["product_variant_id"]
             referencedRelation: "product_variants"
             referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "cart_items_product_variant_id_fkey"
+            columns: ["product_variant_id"]
+            referencedRelation: "product_variant_ratings_view"
+            referencedColumns: ["product_variant_id"]
+          },
+          {
+            foreignKeyName: "cart_items_product_variant_id_fkey"
+            columns: ["product_variant_id"]
+            referencedRelation: "product_variants_slim_view"
+            referencedColumns: ["id"]
           }
         ]
       }
@@ -100,18 +119,21 @@ export interface Database {
         Row: {
           created_at: string
           customer_id: string
+          deleted_at: string | null
           id: number
           updated_at: string
         }
         Insert: {
           created_at?: string
           customer_id: string
+          deleted_at?: string | null
           id?: never
           updated_at?: string
         }
         Update: {
           created_at?: string
           customer_id?: string
+          deleted_at?: string | null
           id?: never
           updated_at?: string
         }
@@ -129,21 +151,31 @@ export interface Database {
           created_at: string
           id: number
           name: string
+          parent_id: number | null
           updated_at: string
         }
         Insert: {
           created_at?: string
           id?: number
           name: string
+          parent_id?: number | null
           updated_at?: string
         }
         Update: {
           created_at?: string
           id?: number
           name?: string
+          parent_id?: number | null
           updated_at?: string
         }
-        Relationships: []
+        Relationships: [
+          {
+            foreignKeyName: "categories_parent_id_fkey"
+            columns: ["parent_id"]
+            referencedRelation: "categories"
+            referencedColumns: ["id"]
+          }
+        ]
       }
       customer_addresses: {
         Row: {
@@ -191,6 +223,7 @@ export interface Database {
       customers: {
         Row: {
           created_at: string
+          deleted_at: string | null
           first_name: string | null
           id: string
           last_name: string | null
@@ -199,6 +232,7 @@ export interface Database {
         }
         Insert: {
           created_at?: string
+          deleted_at?: string | null
           first_name?: string | null
           id?: string
           last_name?: string | null
@@ -207,6 +241,7 @@ export interface Database {
         }
         Update: {
           created_at?: string
+          deleted_at?: string | null
           first_name?: string | null
           id?: string
           last_name?: string | null
@@ -221,6 +256,39 @@ export interface Database {
             referencedColumns: ["id"]
           }
         ]
+      }
+      discounts: {
+        Row: {
+          created_at: string
+          end_date: string | null
+          id: string
+          qualifiers: string[] | null
+          start_date: string | null
+          type: Database["public"]["Enums"]["discount_type"]
+          updated_at: string
+          value: number
+        }
+        Insert: {
+          created_at?: string
+          end_date?: string | null
+          id?: string
+          qualifiers?: string[] | null
+          start_date?: string | null
+          type: Database["public"]["Enums"]["discount_type"]
+          updated_at?: string
+          value: number
+        }
+        Update: {
+          created_at?: string
+          end_date?: string | null
+          id?: string
+          qualifiers?: string[] | null
+          start_date?: string | null
+          type?: Database["public"]["Enums"]["discount_type"]
+          updated_at?: string
+          value?: number
+        }
+        Relationships: []
       }
       inventory: {
         Row: {
@@ -249,6 +317,18 @@ export interface Database {
             foreignKeyName: "inventory_product_variant_id_fkey"
             columns: ["product_variant_id"]
             referencedRelation: "product_variants"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "inventory_product_variant_id_fkey"
+            columns: ["product_variant_id"]
+            referencedRelation: "product_variant_ratings_view"
+            referencedColumns: ["product_variant_id"]
+          },
+          {
+            foreignKeyName: "inventory_product_variant_id_fkey"
+            columns: ["product_variant_id"]
+            referencedRelation: "product_variants_slim_view"
             referencedColumns: ["id"]
           }
         ]
@@ -290,6 +370,18 @@ export interface Database {
             columns: ["product_variant_id"]
             referencedRelation: "product_variants"
             referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "order_items_product_variant_id_fkey"
+            columns: ["product_variant_id"]
+            referencedRelation: "product_variant_ratings_view"
+            referencedColumns: ["product_variant_id"]
+          },
+          {
+            foreignKeyName: "order_items_product_variant_id_fkey"
+            columns: ["product_variant_id"]
+            referencedRelation: "product_variants_slim_view"
+            referencedColumns: ["id"]
           }
         ]
       }
@@ -321,39 +413,39 @@ export interface Database {
           }
         ]
       }
-      product_attributes: {
+      orders_discounts: {
         Row: {
-          attribute_id: number
           created_at: string
+          discount_id: string
           id: number
-          product_id: string
+          order_id: string
           updated_at: string
         }
         Insert: {
-          attribute_id: number
           created_at?: string
-          id?: never
-          product_id: string
+          discount_id: string
+          id?: number
+          order_id: string
           updated_at?: string
         }
         Update: {
-          attribute_id?: number
           created_at?: string
-          id?: never
-          product_id?: string
+          discount_id?: string
+          id?: number
+          order_id?: string
           updated_at?: string
         }
         Relationships: [
           {
-            foreignKeyName: "product_attributes_attribute_id_fkey"
-            columns: ["attribute_id"]
-            referencedRelation: "attributes"
+            foreignKeyName: "orders_discounts_discount_id_fkey"
+            columns: ["discount_id"]
+            referencedRelation: "discounts"
             referencedColumns: ["id"]
           },
           {
-            foreignKeyName: "product_attributes_product_id_fkey"
-            columns: ["product_id"]
-            referencedRelation: "products"
+            foreignKeyName: "orders_discounts_order_id_fkey"
+            columns: ["order_id"]
+            referencedRelation: "orders"
             referencedColumns: ["id"]
           }
         ]
@@ -379,47 +471,11 @@ export interface Database {
         }
         Relationships: []
       }
-      product_categories: {
-        Row: {
-          category_id: number
-          created_at: string
-          id: number
-          parent_id: number | null
-          updated_at: string
-        }
-        Insert: {
-          category_id: number
-          created_at?: string
-          id?: never
-          parent_id?: number | null
-          updated_at?: string
-        }
-        Update: {
-          category_id?: number
-          created_at?: string
-          id?: never
-          parent_id?: number | null
-          updated_at?: string
-        }
-        Relationships: [
-          {
-            foreignKeyName: "product_categories_category_id_fkey"
-            columns: ["category_id"]
-            referencedRelation: "categories"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "product_categories_parent_id_fkey"
-            columns: ["parent_id"]
-            referencedRelation: "product_categories"
-            referencedColumns: ["id"]
-          }
-        ]
-      }
       product_reviews: {
         Row: {
           created_at: string
           customer_id: string
+          deleted_at: string | null
           id: number
           message: string
           product_variant_id: number
@@ -429,6 +485,7 @@ export interface Database {
         Insert: {
           created_at?: string
           customer_id: string
+          deleted_at?: string | null
           id?: number
           message?: string
           product_variant_id: number
@@ -438,6 +495,7 @@ export interface Database {
         Update: {
           created_at?: string
           customer_id?: string
+          deleted_at?: string | null
           id?: number
           message?: string
           product_variant_id?: number
@@ -455,6 +513,61 @@ export interface Database {
             foreignKeyName: "product_reviews_product_variant_id_fkey"
             columns: ["product_variant_id"]
             referencedRelation: "product_variants"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "product_reviews_product_variant_id_fkey"
+            columns: ["product_variant_id"]
+            referencedRelation: "product_variant_ratings_view"
+            referencedColumns: ["product_variant_id"]
+          },
+          {
+            foreignKeyName: "product_reviews_product_variant_id_fkey"
+            columns: ["product_variant_id"]
+            referencedRelation: "product_variants_slim_view"
+            referencedColumns: ["id"]
+          }
+        ]
+      }
+      product_specs: {
+        Row: {
+          created_at: string
+          product_id: string
+          spec_id: number
+          updated_at: string
+          value: string | null
+        }
+        Insert: {
+          created_at?: string
+          product_id: string
+          spec_id: number
+          updated_at?: string
+          value?: string | null
+        }
+        Update: {
+          created_at?: string
+          product_id?: string
+          spec_id?: number
+          updated_at?: string
+          value?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "product_specs_product_id_fkey"
+            columns: ["product_id"]
+            referencedRelation: "products"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "product_specs_product_id_fkey"
+            columns: ["product_id"]
+            referencedRelation: "product_ratings_view"
+            referencedColumns: ["product_id"]
+          },
+          {
+            foreignKeyName: "product_specs_spec_id_fkey"
+            columns: ["spec_id"]
+            referencedRelation: "spec_fields"
             referencedColumns: ["id"]
           }
         ]
@@ -489,6 +602,12 @@ export interface Database {
             referencedColumns: ["id"]
           },
           {
+            foreignKeyName: "product_tags_product_id_fkey"
+            columns: ["product_id"]
+            referencedRelation: "product_ratings_view"
+            referencedColumns: ["product_id"]
+          },
+          {
             foreignKeyName: "product_tags_tag_id_fkey"
             columns: ["tag_id"]
             referencedRelation: "tags"
@@ -496,43 +615,10 @@ export interface Database {
           }
         ]
       }
-      product_variant_attributes: {
-        Row: {
-          id: number
-          product_attribute_id: number | null
-          product_variant_id: number | null
-          value: string
-        }
-        Insert: {
-          id?: never
-          product_attribute_id?: number | null
-          product_variant_id?: number | null
-          value: string
-        }
-        Update: {
-          id?: never
-          product_attribute_id?: number | null
-          product_variant_id?: number | null
-          value?: string
-        }
-        Relationships: [
-          {
-            foreignKeyName: "variant_attributes_product_attributes_fkey"
-            columns: ["product_attribute_id"]
-            referencedRelation: "product_attributes"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "variant_attributes_product_variants_fkey"
-            columns: ["product_variant_id"]
-            referencedRelation: "product_variants"
-            referencedColumns: ["id"]
-          }
-        ]
-      }
       product_variants: {
         Row: {
           created_at: string
+          deleted_at: string | null
           id: number
           image_urls: string[]
           price_offset: number
@@ -541,6 +627,7 @@ export interface Database {
         }
         Insert: {
           created_at?: string
+          deleted_at?: string | null
           id?: never
           image_urls: string[]
           price_offset?: number
@@ -549,6 +636,7 @@ export interface Database {
         }
         Update: {
           created_at?: string
+          deleted_at?: string | null
           id?: never
           image_urls?: string[]
           price_offset?: number
@@ -561,6 +649,61 @@ export interface Database {
             columns: ["product_id"]
             referencedRelation: "products"
             referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "product_variants_product_id_fkey"
+            columns: ["product_id"]
+            referencedRelation: "product_ratings_view"
+            referencedColumns: ["product_id"]
+          }
+        ]
+      }
+      product_variants_discounts: {
+        Row: {
+          created_at: string
+          discount_id: string
+          id: number
+          product_variant_id: number
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          discount_id: string
+          id?: number
+          product_variant_id: number
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          discount_id?: string
+          id?: number
+          product_variant_id?: number
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "product_variants_discounts_discount_id_fkey"
+            columns: ["discount_id"]
+            referencedRelation: "discounts"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "product_variants_discounts_product_variant_id_fkey"
+            columns: ["product_variant_id"]
+            referencedRelation: "product_variants"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "product_variants_discounts_product_variant_id_fkey"
+            columns: ["product_variant_id"]
+            referencedRelation: "product_variant_ratings_view"
+            referencedColumns: ["product_variant_id"]
+          },
+          {
+            foreignKeyName: "product_variants_discounts_product_variant_id_fkey"
+            columns: ["product_variant_id"]
+            referencedRelation: "product_variants_slim_view"
+            referencedColumns: ["id"]
           }
         ]
       }
@@ -568,33 +711,42 @@ export interface Database {
         Row: {
           base_price: number | null
           brand_id: number | null
-          category_id: number | null
+          categories: string[] | null
+          category_id: number
           created_at: string
+          deleted_at: string | null
           description: string
           id: string
           name: string
+          specs: Json | null
           thumbnail: string | null
           updated_at: string
         }
         Insert: {
           base_price?: number | null
           brand_id?: number | null
-          category_id?: number | null
+          categories?: string[] | null
+          category_id: number
           created_at?: string
+          deleted_at?: string | null
           description?: string
           id?: string
           name: string
+          specs?: Json | null
           thumbnail?: string | null
           updated_at?: string
         }
         Update: {
           base_price?: number | null
           brand_id?: number | null
-          category_id?: number | null
+          categories?: string[] | null
+          category_id?: number
           created_at?: string
+          deleted_at?: string | null
           description?: string
           id?: string
           name?: string
+          specs?: Json | null
           thumbnail?: string | null
           updated_at?: string
         }
@@ -608,7 +760,38 @@ export interface Database {
           {
             foreignKeyName: "products_category_id_fkey"
             columns: ["category_id"]
-            referencedRelation: "product_categories"
+            referencedRelation: "categories"
+            referencedColumns: ["id"]
+          }
+        ]
+      }
+      spec_fields: {
+        Row: {
+          category_id: number | null
+          created_at: string
+          id: number
+          name: string
+          updated_at: string
+        }
+        Insert: {
+          category_id?: number | null
+          created_at?: string
+          id?: number
+          name: string
+          updated_at?: string
+        }
+        Update: {
+          category_id?: number | null
+          created_at?: string
+          id?: number
+          name?: string
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "spec_fields_category_id_fkey"
+            columns: ["category_id"]
+            referencedRelation: "categories"
             referencedColumns: ["id"]
           }
         ]
@@ -634,14 +817,96 @@ export interface Database {
         }
         Relationships: []
       }
+      variation_specs: {
+        Row: {
+          created_at: string
+          spec_id: number
+          updated_at: string
+          value: string
+          variation_id: number
+        }
+        Insert: {
+          created_at?: string
+          spec_id: number
+          updated_at?: string
+          value: string
+          variation_id: number
+        }
+        Update: {
+          created_at?: string
+          spec_id?: number
+          updated_at?: string
+          value?: string
+          variation_id?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "variation_specs_spec_id_fkey"
+            columns: ["spec_id"]
+            referencedRelation: "spec_fields"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "variation_specs_variation_id_fkey"
+            columns: ["variation_id"]
+            referencedRelation: "product_variants"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "variation_specs_variation_id_fkey"
+            columns: ["variation_id"]
+            referencedRelation: "product_variant_ratings_view"
+            referencedColumns: ["product_variant_id"]
+          },
+          {
+            foreignKeyName: "variation_specs_variation_id_fkey"
+            columns: ["variation_id"]
+            referencedRelation: "product_variants_slim_view"
+            referencedColumns: ["id"]
+          }
+        ]
+      }
     }
     Views: {
-      [_ in never]: never
+      product_ratings_view: {
+        Row: {
+          product_id: string | null
+          rating: number | null
+          reviews_count: number | null
+        }
+        Relationships: []
+      }
+      product_variant_ratings_view: {
+        Row: {
+          product_variant_id: number | null
+          rating: number | null
+          reviews_count: number | null
+        }
+        Relationships: []
+      }
+      product_variants_slim_view: {
+        Row: {
+          discount_type: Database["public"]["Enums"]["discount_type"] | null
+          discount_value: number | null
+          id: number | null
+          price: number | null
+          rating: number | null
+          reviews_count: number | null
+        }
+        Relationships: []
+      }
     }
     Functions: {
       fn_create_categories: {
         Args: {
           p_category_names: string[]
+        }
+        Returns: number
+      }
+      fn_create_category: {
+        Args: {
+          p_name: string
+          p_parent_id: number
         }
         Returns: number
       }
@@ -677,6 +942,13 @@ export interface Database {
           p_category_id: number
         }
         Returns: number
+      }
+      fn_create_product_specs: {
+        Args: {
+          p_product_id: string
+          specs: Json
+        }
+        Returns: undefined
       }
       fn_create_product_tags: {
         Args: {
@@ -721,11 +993,47 @@ export interface Database {
         }
         Returns: number
       }
+      fn_get_all_product_attributes: {
+        Args: {
+          p_product_id: string
+        }
+        Returns: Json
+      }
       fn_get_category_chain: {
         Args: {
           p_product_id: string
         }
         Returns: unknown
+      }
+      fn_get_product_categories: {
+        Args: {
+          p_product_id: string
+        }
+        Returns: unknown
+      }
+      fn_get_product_product_variants_ids: {
+        Args: {
+          p_product_id: string
+        }
+        Returns: unknown
+      }
+      fn_get_product_specs: {
+        Args: {
+          p_product_id: string
+        }
+        Returns: Json
+      }
+      fn_get_product_variant_attributes: {
+        Args: {
+          p_variant_id: number
+        }
+        Returns: Json
+      }
+      fn_get_product_variant_rating: {
+        Args: {
+          p_variant_id: number
+        }
+        Returns: number
       }
       fn_get_to_many_foreign_tables_array: {
         Args: {
@@ -739,9 +1047,19 @@ export interface Database {
         }
         Returns: unknown
       }
+      fn_is_admin: {
+        Args: Record<PropertyKey, never>
+        Returns: boolean
+      }
+      fn_is_product_discounted: {
+        Args: {
+          p_product_id: string
+        }
+        Returns: boolean
+      }
     }
     Enums: {
-      [_ in never]: never
+      discount_type: "PERCENTAGE" | "FIXED"
     }
     CompositeTypes: {
       [_ in never]: never

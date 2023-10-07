@@ -1,6 +1,7 @@
 import axios, { AxiosResponse } from "axios";
 import fs from "fs";
 import { categoryHierarchies } from "./constants";
+import { FishUSAProduct } from "./types/FishUSAProduct.types";
 
 const FETCH_URL =
   "https://vw1136.a.searchspring.io/api/search/search.json?siteId=vw1136&resultsFormat=native";
@@ -15,6 +16,8 @@ async function run() {
     JSON.stringify(products, null, 2)
   );
 }
+
+function formatFishUSAProducts(products: FishUSAProduct[]) {
 
 async function fetchFishUSAProducts() {
   try {
@@ -51,3 +54,5 @@ async function saveHTML() {
   const response = await axios.get(url);
   fs.writeFileSync("Fishing-Rods_Spinning-Rods.html", response.data);
 }
+
+

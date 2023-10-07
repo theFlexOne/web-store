@@ -1,20 +1,14 @@
-import { useState } from 'react';
-import { useAuth } from '../context/auth/useAuth';
-import { Link } from 'react-router-dom';
-import { User } from '../types/models.types';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
-
-const user: User = {
-  id: '1',
-  email: 'test@aol.com',
-  role: 'user',
-};
+import { useState } from "react";
+import { useAuth } from "../context/auth/useAuth";
+import { Link } from "react-router-dom";
+import { User } from "../types/models.types";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUserAstronaut } from "@fortawesome/free-solid-svg-icons";
 
 export default function UserButton() {
   const [open, setOpen] = useState(false);
 
-  const { isUserLoggedIn, logout } = useAuth();
+  const { user, logout } = useAuth();
 
   function handleOutsideClick(e: React.MouseEvent<HTMLDivElement>) {
     if (e.target === e.currentTarget) {
@@ -41,7 +35,7 @@ export default function UserButton() {
           style={{ opacity: open ? 1 : 0 }}
           className="absolute border rounded z-20 bg-white top-[120%] -right-2 transition-all duration-300 shadow shadow-black/30 py-2 px-4 min-w-max cursor-default"
         >
-          {isUserLoggedIn ? (
+          {user ? (
             <ul>
               <li>
                 <span>{user?.email}</span>

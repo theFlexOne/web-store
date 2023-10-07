@@ -5,7 +5,7 @@ import { Json } from "./database.types";
 export type User = {
   id: string;
   email: string;
-  role: "user" | "admin";
+  role: string;
 };
 
 export type Customer = {

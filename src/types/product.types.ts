@@ -1,4 +1,5 @@
 export type ProductBrand = {
+  id: number;
   name: string;
 };
 
@@ -7,6 +8,7 @@ export type ProductSubcategory = {
 };
 
 export type ProductCategory = {
+  id: number;
   name: string;
   subcategories: string[];
 };

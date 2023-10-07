@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import CartButton from './CartButton';
-import { faFishFins, faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
-import { addToCart } from '../../../shopwise/client/src/services/cartService';
+import { faFishFins } from '@fortawesome/free-solid-svg-icons';
 import UserButton from './UserButton';
 
-const RootHeader = () => {
+const RootHeader = ({toggleCart}: {
+  toggleCart: () => void;
+}) => {
   return (
     <header className="flex px-6 py-4 gap-4 shadow shadow-black/30 border-b items-center">
       <Link to="/" className="mr-4 h-full">
@@ -35,7 +36,7 @@ const RootHeader = () => {
       </nav>
       <div className="ml-auto flex gap-2 items-center">
         <UserButton />
-        <CartButton onClick={() => {}} />
+        <CartButton onClick={toggleCart} />
       </div>
     </header>
   );
